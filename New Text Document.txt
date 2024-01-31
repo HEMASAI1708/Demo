@@ -44,7 +44,23 @@ C:\Git training session>git push
 Everything up-to-date
 
 C:\Git training session>git checkout test
+Switched to branch 'test'
 
+C:\Git training session>git push -u origin test
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (15/15), 3.55 KiB | 173.00 KiB/s, done.
+Total 15 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'test' on GitHub by visiting:
+remote:      https://github.com/HEMASAI1708/Demo/pull/new/test
+remote:
+To https://github.com/HEMASAI1708/Demo.git
+ * [new branch]      test -> test
+branch 'test' set up to track 'origin/test'.
 
+C:\Git training session>
 
 
