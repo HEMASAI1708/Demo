@@ -26,4 +26,25 @@ C:\Git training session>git remote add origin https://github.com/HEMASAI1708/Dem
 
 C:\Git training session>git push -u origin main
 
+Whenerver the push or commit is rejected then
+First make the 
+1.) git pull
+2.) git add .
+3.) git commit -m "fifth commit trail"
+4.) git push origin main
+
+
+C:\Git training session>git branch test
+
+C:\Git training session>git branch
+* main
+  test
+
+C:\Git training session>git push
+Everything up-to-date
+
+C:\Git training session>git checkout test
+
+
+
 
