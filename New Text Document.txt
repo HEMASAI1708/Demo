@@ -1,1 +1,29 @@
-second line from git
+git init intialzes the git and gives the config 
+git stash or git reset or git reset --hard = commit the values on the pre existing
+git status = green - new file and success
+red - deleted some file
+git commit -m "for checking purpose" - to check it is committed or not
+
+Login
+git config --global user.email "hemasaiduppalapudi017@gmail.com"
+>git config --global user.name "Hema Sai Duppalapudi"
+
+
+
+C:\Git training session>git commit -m "for checking purpose"
+On branch master
+nothing to commit, working tree clean
+
+C:\Git training session>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Git training session>gitk
+
+C:\Git training session>git branch -M main
+
+C:\Git training session>git remote add origin https://github.com/HEMASAI1708/Demo.git
+
+C:\Git training session>git push -u origin main
+
+
